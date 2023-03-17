@@ -13,7 +13,7 @@ public class MainTest2 {
 
 	public static void main(String[] args) {
 		try {
-			URL url = new URL("https://jsonplaceholder.typicode.com/todos/");
+			URL url = new URL("https://jsonplaceholder.typicode.com/todos/1");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			// http 요청을 ---> 2가지 방식 (GET, POST)
 			conn.setRequestMethod("GET");

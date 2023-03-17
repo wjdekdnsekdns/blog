@@ -31,10 +31,14 @@ public class MainTest {
 					sb.append(line);
 				}
 				String str = sb.toString();
+				
 				Gson gson = new Gson();
 				
 				Type listType = new TypeToken<List<User>>() {}.getType();
 				ArrayList<User> todolist = gson.fromJson(str, listType);
+			
+				
+				
 				for (User userTodo : todolist) {
 					System.out.println(userTodo);
 				}

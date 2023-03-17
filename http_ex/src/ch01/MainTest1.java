@@ -48,10 +48,7 @@ public class MainTest1 {
 			
 			Todo todo = new Todo();
 			
-			todo.setId(1);
-			todo.setUserId(1);
-			todo.setTitle("asd");
-			todo.setCompleted(false);
+		
 			System.out.println(todo);
 //			new InputStreamReader(conn.getInputStream());
 //			 conn.getInputStream(); // 한바이트씩 데이터를 읽어 들이는 녀석

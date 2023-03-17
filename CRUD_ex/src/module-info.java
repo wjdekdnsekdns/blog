@@ -5,7 +5,7 @@
  * @author GGG
  *
  */
-module myblog3 {
+module CRUD_ex {
 	requires java.sql;
 	requires java.desktop;
 }
